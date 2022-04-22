@@ -51,10 +51,6 @@ export default createStore({
 
 
   actions: {
-    updatePrice({ commit }) {
-      commit("updatePrice");
-    },
-
     addProduct(context, product) {
       context.commit("ADD_PRODUCT", product);
     },
